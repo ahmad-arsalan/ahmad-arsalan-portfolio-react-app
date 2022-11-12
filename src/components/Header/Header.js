@@ -10,7 +10,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () =>  (
  <Container>
   <Div1>
-    <Link legacyBehavior href={"/"}>
+    <Link legacyBehavior href={"#"}>
       <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: 20}}>
       <FaLaptopCode size={"3rem"}/> <span>Portfolio</span>
       </a>
