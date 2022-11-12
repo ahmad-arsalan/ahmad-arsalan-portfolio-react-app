@@ -14,7 +14,7 @@ const Hero = () => (
       <SectionText>
         The purpose of this portfolio is to show who I am as a dev, what I have done and how I can be an asset to you.
       </SectionText>
-      <Button onClick={() => window.location = 'https://github.com/ahmad-arsalan'}>Git Me</Button>
+      <Button onClick={() => window.location.href = 'https://github.com/ahmad-arsalan'}>Git Me</Button>
     </LeftSection>
   </Section>
 );
